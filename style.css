@@ -2598,3 +2598,42 @@ section h3 {
 #publication .publication-card {
     border-left: 5px solid #2563eb !important;
 }
+/* FINAL FIX: All certificate buttons match project buttons */
+
+#experience li a,
+#certifications li a,
+#workshops li a,
+#publication .certificate-link {
+    display: inline-block !important;
+    padding: 9px 18px !important;
+    margin-top: 10px !important;
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+    font-family: inherit !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    line-height: normal !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+#experience li a:hover,
+#experience li a:focus,
+#experience li a:active,
+#certifications li a:hover,
+#certifications li a:focus,
+#certifications li a:active,
+#workshops li a:hover,
+#workshops li a:focus,
+#workshops li a:active,
+#publication .certificate-link:hover,
+#publication .certificate-link:focus,
+#publication .certificate-link:active {
+    background: #1d4ed8 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    text-decoration: none !important;
+}
