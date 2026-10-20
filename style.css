@@ -2576,3 +2576,28 @@ section h3 {
     font-weight: bold !important;
     text-decoration: none !important;
 }
+/* FINAL BUTTON STYLE - INTERNSHIPS AND PUBLICATION */
+#experience li a,
+#internships li a,
+#publication .certificate-link {
+    display: inline-block !important;
+    padding: 9px 18px !important;
+    margin-top: 10px !important;
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 6px !important;
+    font-family: inherit !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+    line-height: normal !important;
+}
+
+#experience li a:hover,
+#internships li a:hover,
+#publication .certificate-link:hover {
+    background: #1d4ed8 !important;
+}
