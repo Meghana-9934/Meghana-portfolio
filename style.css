@@ -2558,3 +2558,21 @@ section h3 {
 #workshops ul li a:hover {
     background: #1d4ed8 !important;
 }
+/* Match certificate and publication buttons with project buttons */
+#certifications ul li a,
+#workshops ul li a,
+#internships ul li a,
+#publication .certificate-link {
+    display: inline-block !important;
+    padding: 10px 18px !important;
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 6px !important;
+    font-family: inherit !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
