@@ -970,3 +970,29 @@ section h3 {
     box-shadow: none !important;
     line-height: 1.6;
 }
+/* FINAL FIX: Keep conference and ISBN inside one card */
+
+#publication .publication-card .publication-info p {
+    max-width: none !important;
+    background: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+    border-left: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    transform: none !important;
+    margin: 4px 0 0 !important;
+    color: #f1f5f9 !important;
+    line-height: 1.6;
+}
+
+#publication .publication-card .publication-info p:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+#publication .publication-card {
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
