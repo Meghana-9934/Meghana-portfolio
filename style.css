@@ -2788,8 +2788,9 @@ font-weight: bold;
 #contact .contact-box .contact-btn:hover {
 background: #1d4ed8;
 }
-/* Contact section links */
-#contact a,
-.contact a {
+/* Make only the three contact text links blue */
+#contact .contact-box p a {
 color: #007bff !important;
+-webkit-text-fill-color: #007bff !important;
+text-decoration: underline !important;
 }
