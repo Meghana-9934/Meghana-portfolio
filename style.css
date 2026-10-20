@@ -779,6 +779,10 @@ section h3 {
 .project-details li {
     margin-bottom: 6px;
 }
+.project-details strong {
+    color: #60a5fa !important;
+    font-weight: 700;
+}
 
 .project-details p {
     margin-bottom: 12px;
