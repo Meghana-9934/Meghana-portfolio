@@ -999,3 +999,30 @@ section h3 {
     padding: 20px;
     box-sizing: border-box;
 }
+/* Internship Certificate Buttons */
+
+#experience li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#experience li a {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #60a5fa;
+    border-radius: 20px;
+    color: #60a5fa !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#experience li a:hover {
+    background: #2563eb;
+    color: #ffffff !important;
+    box-shadow: 0 4px 15px rgba(96, 165, 250, 0.25);
+}
