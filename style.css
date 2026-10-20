@@ -2740,3 +2740,51 @@ border-radius: 8px;
 text-decoration: none;
 font-weight: bold;
 }
+/* FINAL CONTACT SECTION FIX */
+
+#contact .contact-box {
+width: 100%;
+max-width: 900px;
+margin: 20px 0 20px 0 !important;
+padding: 25px;
+box-sizing: border-box;
+text-align: left !important;
+background: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(255, 255, 255, 0.12);
+border-left: 4px solid #2563eb !important;
+border-radius: 10px;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+#contact .contact-box p {
+width: 100%;
+max-width: none !important;
+margin: 16px 0 !important;
+padding: 0 !important;
+text-align: left !important;
+background: transparent !important;
+border: none !important;
+box-shadow: none !important;
+transform: none !important;
+}
+
+#contact .contact-box p a {
+color: #60a5fa !important;
+text-decoration: underline !important;
+font-weight: bold;
+}
+
+#contact .contact-box .contact-btn {
+display: inline-block;
+margin-top: 15px;
+padding: 12px 24px;
+background: #2563eb;
+color: white !important;
+border-radius: 8px;
+text-decoration: none !important;
+font-weight: bold;
+}
+
+#contact .contact-box .contact-btn:hover {
+background: #1d4ed8;
+}
