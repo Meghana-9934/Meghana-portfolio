@@ -2800,3 +2800,11 @@ color: #007bff !important;
 -webkit-text-fill-color: #007bff !important;
 text-decoration: underline !important;
 }
+#contact .contact-box {
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact .contact-box:hover {
+transform: translateY(-8px);
+box-shadow: 0 8px 22px rgba(0, 0, 0, 0.15);
+}
