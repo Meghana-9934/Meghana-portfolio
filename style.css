@@ -794,3 +794,7 @@ section h3 {
     font-weight: 700 !important;
     font-size: 17px;
 }
+.project-details p strong {
+    color: #60a5fa !important;
+    -webkit-text-fill-color: #60a5fa !important;
+}
