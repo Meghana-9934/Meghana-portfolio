@@ -2096,3 +2096,157 @@ section h3 {
     margin-left: 0 !important;
     margin-right: auto !important;
 }
+/* ===== FINAL FIX: CERTIFICATIONS, WORKSHOPS, PUBLICATION ===== */
+
+/* Keep these sections in normal left alignment */
+#certifications,
+#workshops,
+#publication,
+#strengths,
+#contact {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+/* Section headings */
+#certifications > h2,
+#workshops > h2,
+#publication > h2,
+#strengths > h2,
+#contact > h2 {
+    margin-left: 0 !important;
+    text-align: left !important;
+}
+
+/* Certifications box */
+#certifications ul {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 25px 35px !important;
+    list-style: none !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-left: 5px solid #2563eb !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Each certification */
+#certifications li {
+    margin: 15px 0 !important;
+    padding: 12px 0 !important;
+    line-height: 1.6 !important;
+}
+
+/* Certification date */
+#certifications li span {
+    float: right !important;
+    color: #93c5fd !important;
+    font-weight: bold !important;
+}
+
+/* Workshops box */
+#workshops ul {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 25px 35px !important;
+    list-style: none !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-left: 5px solid #2563eb !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Workshop item */
+#workshops li {
+    margin: 15px 0 !important;
+    padding: 12px 0 !important;
+    line-height: 1.6 !important;
+}
+
+/* Workshop date */
+#workshops li span {
+    float: right !important;
+    color: #93c5fd !important;
+    font-weight: bold !important;
+}
+
+/* Publication - keep it left aligned */
+#publication .publication-card {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+    max-width: 700px !important;
+    width: 100% !important;
+}
+
+/* Strengths - keep normal left position */
+#strengths p {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+}
+
+/* Contact - keep normal left position */
+#contact p {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+}
+
+/* ===== VIEW CERTIFICATE BUTTONS ===== */
+
+#certifications li,
+#workshops li {
+    position: relative;
+}
+
+/* Button style */
+.certificate-link {
+    display: inline-block !important;
+    margin-top: 8px !important;
+    padding: 8px 18px !important;
+    border: 1px solid #60a5fa !important;
+    border-radius: 20px !important;
+    color: #60a5fa !important;
+    background: rgba(96, 165, 250, 0.12) !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.certificate-link:hover {
+    background: #2563eb !important;
+    color: white !important;
+}
+
+/* Publication button */
+.publication-link {
+    display: inline-block !important;
+    margin-top: 15px !important;
+    padding: 8px 18px !important;
+    border: 1px solid #60a5fa !important;
+    border-radius: 20px !important;
+    color: #60a5fa !important;
+    background: rgba(96, 165, 250, 0.12) !important;
+    text-decoration: none !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.publication-link:hover {
+    background: #2563eb !important;
+    color: white !important;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    #certifications li span,
+    #workshops li span {
+        float: none !important;
+        display: block !important;
+        margin-top: 5px !important;
+    }
+
+}
