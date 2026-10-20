@@ -992,7 +992,10 @@ section h3 {
 }
 
 #publication .publication-card {
-    max-width: 600px;
+    max-width: 600px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
     padding: 20px;
-    margin: 20px 0;
+    box-sizing: border-box;
 }
