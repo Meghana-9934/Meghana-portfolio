@@ -749,10 +749,9 @@ section h3 {
     text-align: center;
 }
 .project-status {
-    display: block;
-    width: fit-content;
-    margin-top: 18px;
-    padding: 6px 16px;
+    display: inline-block;
+    padding: 8px 18px;
+    margin-top: 15px;
     border: 1px solid #60a5fa;
     border-radius: 20px;
     color: #60a5fa !important;
