@@ -2250,3 +2250,23 @@ section h3 {
     }
 
 }
+/* ===== FINAL FIX: INTERNSHIPS ALIGNMENT ===== */
+
+#experience {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    width: 100% !important;
+}
+
+#experience > h2 {
+    margin-left: 0 !important;
+    text-align: left !important;
+}
+
+#experience ul {
+    width: 100% !important;
+    max-width: none !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    box-sizing: border-box !important;
+}
