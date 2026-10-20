@@ -2363,68 +2363,99 @@ section h3 {
         padding-right: 7% !important;
     }
 }
-/* ===== Certifications & Workshops - Same Style as Internships ===== */
+/* ===== FINAL CERTIFICATIONS & WORKSHOPS ALIGNMENT ===== */
 
 #certifications,
 #workshops {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
 }
 
 #certifications > h2,
 #workshops > h2 {
-    text-align: left;
-    margin-left: 0;
+    display: inline-block !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 #certifications ul,
 #workshops ul {
-    margin-left: 0;
-    padding: 25px 35px;
-    background: rgba(255, 255, 255, 0.06);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    border-left: 5px solid #2563eb;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    list-style-position: inside;
+    width: 100% !important;
+    margin: 15px 0 0 0 !important;
+    padding: 25px 35px !important;
+    list-style: none !important;
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-left: 5px solid #2563eb !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
 }
 
 #certifications li,
 #workshops li {
-    margin: 15px 0;
-    line-height: 1.6;
-    color: #f1f5f9;
+    width: 100% !important;
+    margin: 15px 0 !important;
+    padding: 0 !important;
+    color: #f1f5f9 !important;
+    line-height: 1.6 !important;
 }
 
 #certifications li div,
 #workshops li div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 20px !important;
 }
 
 #certifications li strong,
 #workshops li strong {
-    color: #f1f5f9;
+    color: #f1f5f9 !important;
+    font-weight: bold !important;
 }
 
-#certifications span,
-#workshops span {
+#certifications li span,
+#workshops li span {
+    float: none !important;
     color: #93c5fd !important;
-    font-weight: bold;
+    font-weight: bold !important;
+    white-space: nowrap !important;
 }
 
 #certifications li a,
 #workshops li a {
-    display: inline-block;
-    margin-top: 8px;
-    color: #60a5fa;
-    text-decoration: none;
-    font-weight: bold;
+    display: inline-block !important;
+    margin-top: 8px !important;
+    color: #60a5fa !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
 }
 
 #certifications li a:hover,
 #workshops li a:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    #certifications,
+    #workshops {
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
+
+    #certifications ul,
+    #workshops ul {
+        padding: 20px !important;
+    }
+
+    #certifications li div,
+    #workshops li div {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        gap: 3px !important;
+    }
 }
