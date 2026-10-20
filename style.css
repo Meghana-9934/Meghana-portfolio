@@ -2497,5 +2497,26 @@ section h3 {
 #experience li a:hover {
     background: #1d4ed8 !important;
 }
+/* Certifications & Workshops - Simple Text Links */
 
+#certifications li a,
+#workshops li a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    color: #f1f5f9 !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+
+#certifications li a:hover,
+#workshops li a:hover {
+    background: transparent !important;
+    color: #60a5fa !important;
+    text-decoration: underline !important;
+}
 
