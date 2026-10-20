@@ -913,3 +913,26 @@ section h3 {
 #publication .publication-card .publication-info strong {
     margin-bottom: 5px;
 }
+/* Remove separate box styling from publication details */
+#publication .publication-card .publication-info,
+#publication .publication-card .publication-info > div {
+    background: transparent !important;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin-left: 0 !important;
+}
+
+#publication .publication-card .publication-info {
+    display: block !important;
+    margin-bottom: 18px !important;
+}
+
+#publication .publication-card .publication-info p {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
