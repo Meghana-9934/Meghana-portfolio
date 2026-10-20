@@ -844,3 +844,53 @@ section h3 {
     line-height: 1.6;
     overflow-wrap: anywhere;
 }
+/* Modern single-box publication layout */
+#publication .publication-card {
+    max-width: 700px;
+    margin: 24px auto;
+    padding: 28px;
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.04);
+    box-sizing: border-box;
+    text-align: left;
+}
+
+#publication .publication-card h3 {
+    margin: 0 0 8px;
+    color: #60a5fa;
+    font-size: 22px;
+}
+
+#publication .publication-card .publication-divider {
+    height: 1px;
+    background: rgba(96, 165, 250, 0.3);
+    margin: 16px 0;
+}
+
+#publication .publication-card .publication-info {
+    display: block;
+    margin-bottom: 18px;
+}
+
+#publication .publication-card .publication-info strong {
+    display: block;
+    color: #60a5fa !important;
+    margin-bottom: 6px;
+}
+
+#publication .publication-card .publication-info p {
+    margin: 0;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+
+#publication .publication-card .publication-info:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 600px) {
+    #publication .publication-card {
+        padding: 20px;
+    }
+}
