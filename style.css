@@ -894,3 +894,22 @@ section h3 {
         padding: 20px;
     }
 }
+/* Keep conference and ISBN details simple */
+#publication .publication-card .publication-info {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+#publication .publication-card .publication-info p {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    box-shadow: none !important;
+}
+
+#publication .publication-card .publication-info strong {
+    margin-bottom: 5px;
+}
