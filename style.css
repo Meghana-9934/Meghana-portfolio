@@ -2662,3 +2662,48 @@ section h3 {
     -webkit-text-fill-color: #ffffff !important;
     text-decoration: none !important;
 }
+/* Contact Me - Single Box */
+
+#contact .contact-box {
+max-width: 700px;
+margin: 20px auto;
+padding: 30px;
+background: rgba(255, 255, 255, 0.06);
+border: 1px solid rgba(255, 255, 255, 0.12);
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+text-align: center;
+}
+
+#contact .contact-box p {
+display: block;
+width: auto;
+max-width: none;
+margin: 16px 0;
+padding: 0;
+background: transparent !important;
+border: none !important;
+border-radius: 0 !important;
+box-shadow: none !important;
+transform: none !important;
+}
+
+#contact .contact-box p a {
+color: inherit;
+text-decoration: underline;
+}
+
+#contact .contact-box .contact-btn {
+display: inline-block;
+margin-top: 15px;
+padding: 12px 24px;
+border-radius: 8px;
+background: #2563eb;
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+#contact .contact-box .contact-btn:hover {
+background: #1d4ed8;
+}
