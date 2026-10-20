@@ -759,3 +759,28 @@ section h3 {
     font-size: 14px;
     font-weight: bold;
 }
+/* Project Focus and Technologies Styling */
+.project-details {
+    margin-top: 20px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.project-details strong {
+    color: #60a5fa;
+    font-size: 16px;
+}
+
+.project-details ul {
+    margin: 8px 0 16px;
+    padding-left: 22px;
+}
+
+.project-details li {
+    margin-bottom: 6px;
+}
+
+.project-details p {
+    margin-bottom: 12px;
+    overflow-wrap: anywhere;
+}
