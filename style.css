@@ -2022,6 +2022,19 @@ section h3 {
     border: none;
     transition: background 0.3s ease;
 }
+#experience li > div {
+    width: 100%;
+}
+
+#experience li > div strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#experience li > div span {
+    display: block;
+    float: none;
+}
 
 #experience li a:hover {
     background: #1d4ed8;
