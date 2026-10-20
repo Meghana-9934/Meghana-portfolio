@@ -936,3 +936,37 @@ section h3 {
     box-shadow: none !important;
     padding: 0 !important;
 }
+/* Compact and professional publication details */
+#publication .publication-card {
+    padding: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#publication .publication-card .publication-info,
+#publication .publication-card .publication-info > div {
+    display: block !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+}
+
+#publication .publication-card .publication-info {
+    margin: 0 0 14px !important;
+}
+
+#publication .publication-card .publication-info:last-child {
+    margin-bottom: 0 !important;
+}
+
+#publication .publication-card .publication-info p {
+    margin: 4px 0 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    line-height: 1.6;
+}
