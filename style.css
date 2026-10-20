@@ -2061,3 +2061,38 @@ section h3 {
     color: #93c5fd !important;
     font-weight: bold;
 }
+/* ===== FINAL ALIGNMENT FIX ===== */
+
+#experience,
+#certifications,
+#workshops,
+#publication,
+#strengths,
+#contact {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+/* Keep headings in normal left position */
+#experience h2,
+#certifications h2,
+#workshops h2,
+#publication h2,
+#strengths h2,
+#contact h2 {
+    margin-left: 0 !important;
+    text-align: left !important;
+}
+
+/* Keep lists in normal position */
+#experience ul,
+#certifications ul,
+#workshops ul {
+    margin-left: 25px !important;
+}
+
+/* Keep publication card on the left */
+#publication .publication-card {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
