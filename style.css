@@ -2270,3 +2270,96 @@ section h3 {
     margin-right: 0 !important;
     box-sizing: border-box !important;
 }
+/* ===== FINAL FIX: Internships, Certifications & Workshops ===== */
+
+#experience,
+#certifications,
+#workshops {
+    width: 100%;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    margin: 0 !important;
+}
+
+#experience h2,
+#certifications h2,
+#workshops h2 {
+    margin-left: 0 !important;
+    text-align: left !important;
+}
+
+#experience ul,
+#certifications ul,
+#workshops ul {
+    width: 100% !important;
+    margin-left: 0 !important;
+    padding: 25px 35px !important;
+    box-sizing: border-box !important;
+}
+
+#experience li,
+#certifications li,
+#workshops li {
+    width: 100% !important;
+    margin: 15px 0 !important;
+}
+
+/* ===== VIEW CERTIFICATE BUTTONS ===== */
+
+#experience li a,
+#certifications li a,
+#workshops li a {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 7px 15px;
+    border: 1px solid #60a5fa;
+    border-radius: 20px;
+    color: #60a5fa !important;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#experience li a:hover,
+#certifications li a:hover,
+#workshops li a:hover {
+    background: #60a5fa;
+    color: #050b24 !important;
+}
+
+/* ===== PUBLICATION, STRENGTHS & CONTACT BACK TO NORMAL WIDTH ===== */
+
+#publication,
+#strengths,
+#contact {
+    width: 100%;
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    margin: 0 !important;
+}
+
+#publication > h2,
+#strengths > h2,
+#contact > h2 {
+    margin-left: 0 !important;
+    text-align: left !important;
+}
+
+#publication .publication-card {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 500px) {
+    #experience,
+    #certifications,
+    #workshops,
+    #publication,
+    #strengths,
+    #contact {
+        padding-left: 7% !important;
+        padding-right: 7% !important;
+    }
+}
