@@ -3304,3 +3304,26 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     box-shadow: 0 0 8px rgba(96, 165, 250, 0.25);
     pointer-events: none;
 }
+/* ===== SAME DOUBLE GLOW BORDER AS WORKSHOPS ===== */
+
+/* Publications */
+#publication .publication-card {
+    position: relative !important;
+    border: 1px solid rgba(96, 165, 250, 0.9) !important;
+    border-radius: 16px !important;
+    box-shadow:
+        0 0 0 2px rgba(96, 165, 250, 0.25),
+        0 0 8px rgba(96, 165, 250, 0.65),
+        0 0 18px rgba(96, 165, 250, 0.35) !important;
+}
+
+/* Contact Me */
+#contact .contact-box {
+    position: relative !important;
+    border: 1px solid rgba(96, 165, 250, 0.9) !important;
+    border-radius: 16px !important;
+    box-shadow:
+        0 0 0 2px rgba(96, 165, 250, 0.25),
+        0 0 8px rgba(96, 165, 250, 0.65),
+        0 0 18px rgba(96, 165, 250, 0.35) !important;
+}
