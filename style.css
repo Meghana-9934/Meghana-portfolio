@@ -3070,3 +3070,20 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
         0 0 8px rgba(96, 165, 250, 0.5),
         0 0 18px rgba(96, 165, 250, 0.3) !important;
 }
+/* BLUE GLOW OUTLINE ON HOVER - OTHER CARDS ONLY */
+
+.about-content:hover,
+.education-item:hover,
+.skill:hover,
+.project:hover,
+#experience ul:hover,
+#certifications ul:hover,
+#workshops ul:hover,
+#strengths > p:hover,
+#contact .contact-box:hover {
+    outline: 1px solid #60a5fa !important;
+    outline-offset: 0;
+    box-shadow:
+        0 0 8px rgba(96, 165, 250, 0.5),
+        0 0 18px rgba(96, 165, 250, 0.3) !important;
+}
