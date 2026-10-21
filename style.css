@@ -2828,7 +2828,11 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 #projects > h2 {
     margin-bottom: 10px !important;
 }
-/* Projects spacing - same as About Me */
+/* Projects - same spacing as About Me */
 #projects > h2 {
     margin-bottom: 25px !important;
+}
+
+#projects .project:first-of-type {
+    margin-top: 0 !important;
 }
