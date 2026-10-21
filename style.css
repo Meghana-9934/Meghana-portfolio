@@ -3283,15 +3283,17 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
 
     pointer-events: none;
 }
-/* ===== PUBLICATIONS & CONTACT - SAME BORDER STYLE ===== */
+/* ===== PUBLICATIONS & CONTACT: MATCH WORKSHOPS ===== */
 
 #publication .publication-card,
 #contact .contact-box {
     position: relative !important;
-    border: 1px solid rgba(96, 165, 250, 0.75) !important;
-    border-radius: 16px !important;
-    box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.55),
-                0 0 8px rgba(96, 165, 250, 0.45) !important;
+    border: 1px solid rgba(96, 165, 250, 0.35) !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+    outline: none !important;
+    overflow: visible !important;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
 }
 
 #publication .publication-card::before,
@@ -3299,31 +3301,16 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     content: "";
     position: absolute;
     inset: -5px;
-    border: 1px solid rgba(96, 165, 250, 0.55);
-    border-radius: 20px;
-    box-shadow: 0 0 8px rgba(96, 165, 250, 0.25);
+    border: 1px solid rgba(96, 165, 250, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 0 8px rgba(96, 165, 250, 0.35);
     pointer-events: none;
 }
-/* ===== SAME DOUBLE GLOW BORDER AS WORKSHOPS ===== */
 
-/* Publications */
-#publication .publication-card {
-    position: relative !important;
-    border: 1px solid rgba(96, 165, 250, 0.9) !important;
-    border-radius: 16px !important;
+#publication .publication-card:hover,
+#contact .contact-box:hover {
+    border-color: #60a5fa !important;
     box-shadow:
-        0 0 0 2px rgba(96, 165, 250, 0.25),
-        0 0 8px rgba(96, 165, 250, 0.65),
-        0 0 18px rgba(96, 165, 250, 0.35) !important;
-}
-
-/* Contact Me */
-#contact .contact-box {
-    position: relative !important;
-    border: 1px solid rgba(96, 165, 250, 0.9) !important;
-    border-radius: 16px !important;
-    box-shadow:
-        0 0 0 2px rgba(96, 165, 250, 0.25),
-        0 0 8px rgba(96, 165, 250, 0.65),
-        0 0 18px rgba(96, 165, 250, 0.35) !important;
+        0 0 8px rgba(96, 165, 250, 0.5),
+        0 0 18px rgba(96, 165, 250, 0.3) !important;
 }
