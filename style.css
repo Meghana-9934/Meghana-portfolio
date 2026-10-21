@@ -3127,3 +3127,70 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     border-color: #60a5fa !important;
     box-shadow: 0 0 12px rgba(96, 165, 250, 0.5) !important;
 }
+/* ===== SAME SINGLE-BORDER GLOW EFFECT FOR ALL CARDS ===== */
+
+/* Common card styling */
+.about-content,
+.education-item,
+.skill,
+.project,
+#experience ul,
+#certifications ul,
+#workshops ul,
+#strengths p,
+#contact .contact-box,
+#publication .publication-card {
+    position: relative;
+    border: 1px solid rgba(96, 165, 250, 0.35) !important;
+    border-radius: 16px !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    box-shadow: none !important;
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease,
+                transform 0.3s ease;
+}
+
+/* Remove the extra blue left border */
+.about-content,
+.education-item,
+.skill,
+.project,
+#experience ul,
+#certifications ul,
+#workshops ul,
+#strengths p,
+#contact .contact-box {
+    border-left: 1px solid rgba(96, 165, 250, 0.35) !important;
+}
+
+/* Single border glow on hover */
+.about-content:hover,
+.education-item:hover,
+.skill:hover,
+.project:hover,
+#experience ul:hover,
+#certifications ul:hover,
+#workshops ul:hover,
+#strengths p:hover,
+#contact .contact-box:hover,
+#publication .publication-card:hover {
+    border-color: #60a5fa !important;
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.25) !important;
+    transform: translateY(-4px);
+}
+
+/* Prevent nested paragraphs from creating extra borders */
+.about-content p,
+#strengths p,
+#contact .contact-box p,
+#publication .publication-card .publication-info p {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Keep publication card details inside the main card */
+#publication .publication-card .publication-info {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
