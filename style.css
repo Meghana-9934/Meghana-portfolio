@@ -3350,3 +3350,42 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     outline: none !important;
     transform: none !important;
 }
+/* ===== CONTACT TEXT - NO INDIVIDUAL RECTANGULAR BOXES ===== */
+
+#contact p,
+#contact p:hover,
+#contact .contact-box p,
+#contact .contact-box p:hover,
+#contact .contact-box a,
+#contact .contact-box a:hover {
+    background: transparent !important;
+    border: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    transform: none !important;
+}
+
+/* Keep contact details as normal text */
+#contact p {
+    padding: 0 !important;
+    margin: 12px 0 !important;
+}
+
+/* Links should remain normal clickable links */
+#contact a {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+/* ONLY the main Contact box can glow */
+#contact .contact-box:hover {
+    border-color: #60a5fa !important;
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.35) !important;
+}
