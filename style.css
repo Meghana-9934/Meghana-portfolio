@@ -3289,3 +3289,42 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     box-shadow: 0 0 12px #60a5fa !important;
     transform: translateY(-6px) !important;
 }
+/* ===== MATCH ABOUT ME CARD STYLE ===== */
+
+/* Publications card */
+#publication .publication-card {
+    position: relative !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-left: 5px solid #2563eb !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease !important;
+}
+
+/* Contact Me card */
+#contact .contact-box {
+    position: relative !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-left: 5px solid #2563eb !important;
+    border-radius: 12px !important;
+    padding: 25px 30px !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+    transition: border-color 0.3s ease,
+                box-shadow 0.3s ease !important;
+}
+
+/* Normal state: no extra glow */
+#publication .publication-card::before,
+#contact .contact-box::before {
+    content: none !important;
+}
+
+/* Hover: glow like About Me */
+#publication .publication-card:hover,
+#contact .contact-box:hover {
+    border-color: #60a5fa !important;
+    border-left-color: #2563eb !important;
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.25) !important;
+    transform: none !important;
+}
