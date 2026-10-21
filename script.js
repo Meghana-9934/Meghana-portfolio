@@ -42,17 +42,26 @@
         }
 
         .scroll-reveal {
-            opacity: 0;
-            transform: translateY(24px);
-            transition:
-                opacity 0.7s ease,
-                transform 0.7s ease;
-        }
+    opacity: 0;
+    translate: 0 24px;
+    transition:
+        opacity 0.7s ease,
+        translate 0.7s ease;
+}
 
-        .scroll-reveal.is-visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+.scroll-reveal.is-visible {
+    opacity: 1;
+    translate: 0 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .scroll-reveal {
+        animation: none !important;
+        opacity: 1 !important;
+        translate: none !important;
+        transition: none !important;
+    }
+}
 
         @media (prefers-reduced-motion: reduce) {
             #home .home-content > *,
