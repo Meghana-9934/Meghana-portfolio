@@ -3328,3 +3328,25 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     box-shadow: 0 0 15px rgba(96, 165, 250, 0.25) !important;
     transform: none !important;
 }
+/* ===== CONTACT DETAILS - REMOVE INDIVIDUAL HOVER BOXES ===== */
+
+#contact p {
+    background: transparent !important;
+    border: none !important;
+    border-left: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin: 12px 0 !important;
+}
+
+/* Prevent box/glow when mouse is over contact details */
+#contact p:hover {
+    background: transparent !important;
+    border: none !important;
+    border-left: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    transform: none !important;
+}
