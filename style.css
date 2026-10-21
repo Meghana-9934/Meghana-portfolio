@@ -3224,3 +3224,20 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     border-color: #60a5fa !important;
     box-shadow: 0 0 15px rgba(96, 165, 250, 0.35) !important;
 }
+/* Publications and Contact Me - Match other cards */
+
+#publication .publication-card,
+#contact .contact-box {
+    position: relative;
+    border: 1px solid rgba(96, 165, 250, 0.35);
+    border-radius: 16px;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+/* Glow only when mouse is over the card */
+
+#publication .publication-card:hover,
+#contact .contact-box:hover {
+    border-color: #60a5fa;
+    box-shadow: 0 0 15px rgba(96, 165, 250, 0.35);
+}
