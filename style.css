@@ -3195,3 +3195,31 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     border-left: 4px solid #2563eb !important;
     border-radius: 12px;
 }
+/* Restore the original blue left accent without changing card layout */
+
+.about-content,
+.education-item,
+.skill,
+.project,
+#experience ul,
+#certifications ul,
+#workshops ul,
+#strengths p,
+#publication .publication-card,
+#contact .contact-box {
+    border-left: 5px solid #2563eb !important;
+}
+
+/* Preserve the existing hover glow */
+.about-content:hover,
+.education-item:hover,
+.skill:hover,
+.project:hover,
+#experience ul:hover,
+#certifications ul:hover,
+#workshops ul:hover,
+#strengths p:hover,
+#publication .publication-card:hover,
+#contact .contact-box:hover {
+    border-left-color: #2563eb !important;
+}
