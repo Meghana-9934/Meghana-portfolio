@@ -3101,27 +3101,29 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
     outline-offset: 2px !important;
     box-shadow: 0 0 12px #60a5fa !important;
 }
-/* ===== BLUE GLOW OUTLINE ON HOVER ===== */
+/* ===== MATCH PUBLICATION BORDER HOVER EFFECT ===== */
 
-/* About, Education, Skills, Projects */
+.about-content,
+.education-item,
+.skill,
+.project,
+#experience ul,
+#certifications ul,
+#workshops ul,
+#strengths p,
+#contact .contact-box {
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
 .about-content:hover,
 .education-item:hover,
 .skill:hover,
 .project:hover,
-
-/* Experience, Certifications, Workshops */
 #experience ul:hover,
 #certifications ul:hover,
 #workshops ul:hover,
-
-/* Strengths */
 #strengths p:hover,
-
-/* Contact card */
 #contact .contact-box:hover {
-    outline: 1px solid #60a5fa !important;
-    outline-offset: 0;
-    box-shadow:
-        0 0 8px rgba(96, 165, 250, 0.5),
-        0 0 18px rgba(96, 165, 250, 0.25);
+    border-color: #60a5fa !important;
+    box-shadow: 0 0 12px rgba(96, 165, 250, 0.5) !important;
 }
