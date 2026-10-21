@@ -2991,3 +2991,17 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
     margin-top: 0 !important;
     margin-left: 0 !important;
 }
+/* ===== CERTIFICATIONS - ABOUT ME SPACING ===== */
+
+#certifications {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#certifications > h2 {
+    margin-bottom: 25px !important;
+}
+
+#certifications ul {
+    margin-top: 0 !important;
+}
