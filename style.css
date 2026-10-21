@@ -2828,3 +2828,11 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 #projects > h2 {
     margin-bottom: 10px !important;
 }
+/* Projects - exact heading to card spacing */
+#projects > h2 {
+    margin-bottom: 0 !important;
+}
+
+#projects .project:first-of-type {
+    margin-top: 0 !important;
+}
