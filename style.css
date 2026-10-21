@@ -2820,19 +2820,53 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 #education .education-item:first-of-type {
     margin-top: 0;
 }
-/* Projects - match About Me spacing */
-#projects .project:first-of-type {
-    margin-top: 0 !important;
-}
-/* Projects heading spacing */
-#projects > h2 {
-    margin-bottom: 10px !important;
-}
-/* Projects - same spacing as About Me */
+/* ===== MATCH ABOUT ME SPACING FOR ALL SECTIONS ===== */
+
+/* Projects */
 #projects > h2 {
     margin-bottom: 25px !important;
 }
 
 #projects .project:first-of-type {
+    margin-top: 0 !important;
+}
+
+
+/* Certifications */
+#certifications > h2 {
+    margin-bottom: 25px !important;
+}
+
+#certifications ul {
+    margin-top: 0 !important;
+}
+
+
+/* Workshops */
+#workshops > h2 {
+    margin-bottom: 25px !important;
+}
+
+#workshops ul {
+    margin-top: 0 !important;
+}
+
+
+/* Publications */
+#publication > h2 {
+    margin-bottom: 25px !important;
+}
+
+#publication .publication-card {
+    margin-top: 0 !important;
+}
+
+
+/* Contact Me */
+#contact > h2 {
+    margin-bottom: 25px !important;
+}
+
+#contact .contact-box {
     margin-top: 0 !important;
 }
