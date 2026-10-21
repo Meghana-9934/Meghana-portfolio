@@ -72,10 +72,7 @@ document.addEventListener("DOMContentLoaded", () => {
         ? home.querySelectorAll(".home-content > *")
         : [];
 
-    const sections = document.querySelectorAll(
-        "body > section:not(#home)"
-    );
-
+   const sections = document.querySelectorAll("section:not(#home)");
     const animatedElements = [];
 
     sections.forEach((section) => {
