@@ -2820,7 +2820,7 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 #education .education-item:first-of-type {
     margin-top: 0;
 }
-/* Projects spacing */
+/* Projects - match About Me spacing */
 #projects .project:first-of-type {
-    margin-top: 0;
+    margin-top: 0 !important;
 }
