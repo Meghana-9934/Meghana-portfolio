@@ -3283,3 +3283,24 @@ box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
 
     pointer-events: none;
 }
+/* ===== PUBLICATIONS & CONTACT - SAME BORDER STYLE ===== */
+
+#publication .publication-card,
+#contact .contact-box {
+    position: relative !important;
+    border: 1px solid rgba(96, 165, 250, 0.75) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.55),
+                0 0 8px rgba(96, 165, 250, 0.45) !important;
+}
+
+#publication .publication-card::before,
+#contact .contact-box::before {
+    content: "";
+    position: absolute;
+    inset: -5px;
+    border: 1px solid rgba(96, 165, 250, 0.55);
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(96, 165, 250, 0.25);
+    pointer-events: none;
+}
