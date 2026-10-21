@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+(() => {
     const style = document.createElement("style");
 
     style.textContent = `
@@ -118,4 +118,4 @@ document.addEventListener("DOMContentLoaded", () => {
             element.classList.add("is-visible");
         });
     }
-});
+})();
