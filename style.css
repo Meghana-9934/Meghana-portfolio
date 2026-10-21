@@ -2870,3 +2870,71 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 #contact .contact-box {
     margin-top: 0 !important;
 }
+/* ===== FINAL SECTION SPACING FIX ===== */
+
+/* Certifications */
+#certifications {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+#certifications > h2 {
+    margin-bottom: 25px !important;
+    margin-left: 0 !important;
+}
+
+#certifications ul {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+
+/* Workshops */
+#workshops {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+#workshops > h2 {
+    margin-bottom: 25px !important;
+    margin-left: 0 !important;
+}
+
+#workshops ul {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+
+/* Publications */
+#publication {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+#publication > h2 {
+    margin-bottom: 25px !important;
+    margin-left: 0 !important;
+}
+
+#publication .publication-card {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
+
+
+/* Contact Me */
+#contact {
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+}
+
+#contact > h2 {
+    margin-bottom: 25px !important;
+    margin-left: 0 !important;
+}
+
+#contact .contact-box {
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+}
