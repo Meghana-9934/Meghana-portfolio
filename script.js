@@ -53,6 +53,22 @@
     opacity: 1;
     translate: 0 0;
 }
+/* Fix hover movement and blue shadow */
+
+.scroll-reveal.is-visible.about-content:hover,
+.scroll-reveal.is-visible.education-item:hover,
+.scroll-reveal.is-visible.project:hover,
+.scroll-reveal.is-visible.skill:hover,
+.scroll-reveal.is-visible.publication-card:hover,
+.scroll-reveal.is-visible ul:hover,
+.scroll-reveal.is-visible.contact-box:hover {
+    transform: translateY(-6px) !important;
+    box-shadow: 0 10px 25px rgba(96, 165, 250, 0.25) !important;
+}
+
+.scroll-reveal.is-visible.publication-card:hover {
+    border-color: #60a5fa !important;
+}
 
 @media (prefers-reduced-motion: reduce) {
     .scroll-reveal {
